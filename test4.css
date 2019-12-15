@@ -1,0 +1,146 @@
+
+
+#container {
+    padding: 0;
+    width: 400px;
+    height: auto;
+    margin: 20px auto;
+    border: 1px solid rgb(189, 188, 188);
+    border-radius: 5px;
+}
+
+#content{
+    padding: 10px;
+}
+
+.title-1{
+    font-family: 'Courier Prime',
+    monospace;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-1 > span {
+    display: inline-block;
+    width: 50%;
+    height: 10px;
+    background: repeating-linear-gradient(45deg,
+        transparent,
+        transparent 2px,
+        #ccc 0px,
+        #ccc 4px);
+}
+
+.teams {
+    font-family: 'Nunito',
+    sans-serif;
+    margin-right: 10px;
+    
+}
+
+button  {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid  black;
+    border-radius: 2px;
+}
+
+#oran{
+    margin-left: -25px;
+    padding: 2px 8px;
+    background-color: white;
+    color: black;
+}
+
+
+.choose {
+    padding: 2px 20px;
+    background-color: black;
+    color: white;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+#bet span {
+    margin-right: 20px;
+}
+
+#misli {
+    padding: 10px 0;
+}
+
+.misli-title {
+    font-size: 18px;
+}
+
+select{
+    color: black;
+    padding: 10px;
+    width: 75px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: 'Nunito',
+    sans-serif;
+}
+
+.footer {
+    background-color: rgb(255, 204, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    height: 50px;
+}
+
+.footer h3 {
+    float: right;
+    display: inline-flexbox;
+    font-size: 17px;
+}
+
+.footer > button{
+    background: rgb(255, 204, 1);
+    border-style: none;
+    height: 50px;
+}
+
+.logo {
+    width: 90px;
+    height: 25px;
+    margin-left: 25px;
+}
+
+.kazanc{
+    display: block;
+    font-size: 15px;
+    float: right;
+   
+}
+
+.kazanc-b {
+     margin-top: -20px;
+     display: block;
+     font-size: 15px;
+     float: right;
+}
+
+.persent{
+    font-size: 14px;
+}
+
+.perstent-1{
+    margin-right: 75px;
+    
+}
+
+.perstent-2 {
+    margin-right: 75px;
+    font-size: 14px;
+}
+
+.orange{
+    background: orange !important;
+}
